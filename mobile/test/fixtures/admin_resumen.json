@@ -1,0 +1,9 @@
+{
+ "activosPorRol": {
+  "ADMIN": 1,
+  "HERMANO": 6,
+  "PASTOR": 1
+ },
+ "bloqueados": 0,
+ "total": 8
+}

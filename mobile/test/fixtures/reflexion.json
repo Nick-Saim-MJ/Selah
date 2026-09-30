@@ -1,0 +1,13 @@
+{
+ "visible": false,
+ "semanaInicio": "2026-09-27",
+ "pregunta": {
+  "id": 1,
+  "texto": "¿Esta semana gasté por necesidad o por impulso?",
+  "referenciaBiblica": "Lucas 12:15",
+  "dimension": "TESORO"
+ },
+ "entro": 0.0,
+ "gasto": 0.0,
+ "diezmoAlDia": false
+}

@@ -1,0 +1,22 @@
+# Opcional: PostgreSQL en Docker si no se usa la instalación local.
+#   docker compose up -d
+# Flyway (backend) crea las tablas al arrancar.
+services:
+  postgres:
+    image: postgres:14-alpine
+    container_name: selah-postgres
+    environment:
+      POSTGRES_DB: selah_finance
+      POSTGRES_USER: selah
+      POSTGRES_PASSWORD: selah
+    ports:
+      - "5432:5432"
+    volumes:
+      - selah-pgdata:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U selah -d selah_finance"]
+      interval: 5s
+      retries: 10
+
+volumes:
+  selah-pgdata:

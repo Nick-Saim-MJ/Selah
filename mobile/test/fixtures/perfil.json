@@ -1,0 +1,13 @@
+{
+ "id": "f0e8be53-51a2-460a-9a7f-105b19e24391",
+ "email": "ana@selah.demo",
+ "nombres": "Ana",
+ "apellidos": "Torres",
+ "rol": "HERMANO",
+ "estado": "ACTIVO",
+ "iglesiaId": "453a8381-f90b-4829-b9bb-b7e8377f936d",
+ "iglesiaNombre": "Adventista Central",
+ "debeCambiarPassword": false,
+ "onboardingCompletado": true,
+ "comparteReporte": true
+}

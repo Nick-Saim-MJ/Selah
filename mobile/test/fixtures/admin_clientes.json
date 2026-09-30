@@ -1,0 +1,12 @@
+[
+ {
+  "id": "60c4f6a2-a21b-4224-979d-8c7eabd3894f",
+  "nombre": "modulo-salud",
+  "responsableEmail": "eq@salud.org",
+  "prefijoKey": "sf_578bb4f7",
+  "scopes": [
+   "habitos:write"
+  ],
+  "activo": true
+ }
+]

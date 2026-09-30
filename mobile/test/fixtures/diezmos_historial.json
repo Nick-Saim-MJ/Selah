@@ -1,0 +1,50 @@
+[
+ {
+  "periodo": "2026-04",
+  "diezmoApartado": 450.0,
+  "diezmoPendiente": 0.0,
+  "ofrendaApartada": 90.0,
+  "ofrendaPendiente": 0.0,
+  "diezmoAlDia": true
+ },
+ {
+  "periodo": "2026-05",
+  "diezmoApartado": 450.0,
+  "diezmoPendiente": 0.0,
+  "ofrendaApartada": 90.0,
+  "ofrendaPendiente": 0.0,
+  "diezmoAlDia": true
+ },
+ {
+  "periodo": "2026-06",
+  "diezmoApartado": 450.0,
+  "diezmoPendiente": 0.0,
+  "ofrendaApartada": 90.0,
+  "ofrendaPendiente": 0.0,
+  "diezmoAlDia": true
+ },
+ {
+  "periodo": "2026-07",
+  "diezmoApartado": 450.0,
+  "diezmoPendiente": 0.0,
+  "ofrendaApartada": 90.0,
+  "ofrendaPendiente": 0.0,
+  "diezmoAlDia": true
+ },
+ {
+  "periodo": "2026-08",
+  "diezmoApartado": 450.0,
+  "diezmoPendiente": 0.0,
+  "ofrendaApartada": 90.0,
+  "ofrendaPendiente": 0.0,
+  "diezmoAlDia": true
+ },
+ {
+  "periodo": "2026-09",
+  "diezmoApartado": 450.0,
+  "diezmoPendiente": 450.0,
+  "ofrendaApartada": 90.0,
+  "ofrendaPendiente": 90.0,
+  "diezmoAlDia": false
+ }
+]

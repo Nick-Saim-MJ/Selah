@@ -1,0 +1,30 @@
+[
+ {
+  "id": "f0935305-5315-490e-ac75-8351d45b887d",
+  "nombre": "Fondo de emergencia",
+  "proposito": "Tres meses de gastos para no depender de deudas ante un imprevisto",
+  "tipo": "EMERGENCIA",
+  "montoObjetivo": 6000.0,
+  "montoActual": 3900.0,
+  "porcentaje": 65.0,
+  "restante": 2100.0,
+  "fechaObjetivo": "2026-12-31",
+  "aporteMensualSugerido": 700.0,
+  "esPrincipal": true,
+  "estado": "ACTIVA"
+ },
+ {
+  "id": "8784077a-9781-4b1c-8af6-80193841daad",
+  "nombre": "Enganche de auto",
+  "proposito": "Movilidad para llevar a la familia a la iglesia",
+  "tipo": "ESPECIFICA",
+  "montoObjetivo": 8000.0,
+  "montoActual": 2000.0,
+  "porcentaje": 25.0,
+  "restante": 6000.0,
+  "fechaObjetivo": "2027-06-30",
+  "aporteMensualSugerido": 666.67,
+  "esPrincipal": false,
+  "estado": "ACTIVA"
+ }
+]

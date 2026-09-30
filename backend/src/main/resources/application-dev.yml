@@ -1,0 +1,16 @@
+# Perfil de desarrollo local. NO usar estos valores en producción.
+selah:
+  seguridad:
+    jwt-secret: ${JWT_SECRET:dev-solo-local-cambiar-en-produccion-0123456789abcdef}
+    jwt-expiracion: PT12H
+    # Permite el emulador/celular y el navegador local durante el desarrollo
+    cors-origenes: ${CORS_ORIGENES:http://localhost:[*],http://127.0.0.1:[*]}
+  integraciones:
+    clave-cifrado: ${SELAH_CLAVE_CIFRADO:dev-clave-de-cifrado-solo-local}
+  webhooks:
+    permitir-red-local: true
+
+logging:
+  level:
+    com.selahfinance: DEBUG
+    org.hibernate.SQL: INFO

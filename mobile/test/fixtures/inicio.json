@@ -1,0 +1,31 @@
+{
+ "periodo": "2026-09",
+ "semaforo": "VERDE",
+ "ratioGasto": 56.2,
+ "ratioDeuda": 6.7,
+ "ratioAhorro": 6.7,
+ "ingresos": 4500.0,
+ "gastos": 2530.0,
+ "saldoDisponible": 830.0,
+ "apartadoTotal": 540.0,
+ "principalDesvio": {
+  "categoria": "Alimentación",
+  "variacionPct": 11.4
+ },
+ "diezmo": {
+  "apartado": 450.0,
+  "pendiente": 450.0,
+  "ofrendaPendiente": 90.0,
+  "alDia": false
+ },
+ "metaPrincipal": {
+  "id": "f0935305-5315-490e-ac75-8351d45b887d",
+  "nombre": "Fondo de emergencia",
+  "montoActual": 3900.0,
+  "montoObjetivo": 6000.0,
+  "porcentaje": 65.0
+ },
+ "reflexionVisible": false,
+ "reflexionRespondida": false,
+ "notificacionesNoLeidas": 3
+}

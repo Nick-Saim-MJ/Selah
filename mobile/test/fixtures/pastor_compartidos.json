@@ -1,0 +1,263 @@
+[
+ {
+  "usuarioId": "f0e8be53-51a2-460a-9a7f-105b19e24391",
+  "nombre": "Ana Torres",
+  "tiempo": 88.57,
+  "talento": 87.5,
+  "tesoro": 53.34,
+  "templo": 49.55,
+  "global": 69.74,
+  "semaforo": "AMARILLO",
+  "diezmoAlDia": false,
+  "habitos": {
+   "TIEMPO": [
+    {
+     "nombre": "Culto personal",
+     "cumplimientoPct": 89.3
+    },
+    {
+     "nombre": "Lección de Escuela Sabática",
+     "cumplimientoPct": 67.9
+    },
+    {
+     "nombre": "Culto familiar",
+     "cumplimientoPct": 85.7
+    },
+    {
+     "nombre": "Asistencia a la iglesia",
+     "cumplimientoPct": 100.0
+    },
+    {
+     "nombre": "Sábado guardado",
+     "cumplimientoPct": 100.0
+    }
+   ],
+   "TALENTO": [
+    {
+     "nombre": "Servicio en ministerios",
+     "cumplimientoPct": 75.0
+    },
+    {
+     "nombre": "Obra misionera",
+     "cumplimientoPct": 75.0
+    },
+    {
+     "nombre": "Desarrollo de un don",
+     "cumplimientoPct": 100.0
+    },
+    {
+     "nombre": "Ayuda a la comunidad",
+     "cumplimientoPct": 100.0
+    }
+   ],
+   "TEMPLO": [
+    {
+     "nombre": "Agua",
+     "cumplimientoPct": 96.4
+    },
+    {
+     "nombre": "Ejercicio",
+     "cumplimientoPct": 92.9
+    },
+    {
+     "nombre": "Descanso",
+     "cumplimientoPct": 75.0
+    },
+    {
+     "nombre": "Luz solar",
+     "cumplimientoPct": 46.4
+    },
+    {
+     "nombre": "Aire puro",
+     "cumplimientoPct": 0.0
+    },
+    {
+     "nombre": "Temperancia",
+     "cumplimientoPct": 0.0
+    },
+    {
+     "nombre": "Alimentación saludable",
+     "cumplimientoPct": 85.7
+    },
+    {
+     "nombre": "Confianza en Dios",
+     "cumplimientoPct": 0.0
+    }
+   ]
+  }
+ },
+ {
+  "usuarioId": "13ad4208-5385-4f7e-bbc9-9c876059496b",
+  "nombre": "Luis Paredes",
+  "tiempo": 82.86,
+  "talento": 81.25,
+  "tesoro": 80.0,
+  "templo": 42.41,
+  "global": 71.63,
+  "semaforo": "AMARILLO",
+  "diezmoAlDia": true,
+  "habitos": {
+   "TIEMPO": [
+    {
+     "nombre": "Culto personal",
+     "cumplimientoPct": 78.6
+    },
+    {
+     "nombre": "Lección de Escuela Sabática",
+     "cumplimientoPct": 85.7
+    },
+    {
+     "nombre": "Culto familiar",
+     "cumplimientoPct": 75.0
+    },
+    {
+     "nombre": "Asistencia a la iglesia",
+     "cumplimientoPct": 100.0
+    },
+    {
+     "nombre": "Sábado guardado",
+     "cumplimientoPct": 75.0
+    }
+   ],
+   "TALENTO": [
+    {
+     "nombre": "Servicio en ministerios",
+     "cumplimientoPct": 75.0
+    },
+    {
+     "nombre": "Obra misionera",
+     "cumplimientoPct": 100.0
+    },
+    {
+     "nombre": "Desarrollo de un don",
+     "cumplimientoPct": 75.0
+    },
+    {
+     "nombre": "Ayuda a la comunidad",
+     "cumplimientoPct": 75.0
+    }
+   ],
+   "TEMPLO": [
+    {
+     "nombre": "Agua",
+     "cumplimientoPct": 78.6
+    },
+    {
+     "nombre": "Ejercicio",
+     "cumplimientoPct": 78.6
+    },
+    {
+     "nombre": "Descanso",
+     "cumplimientoPct": 71.4
+    },
+    {
+     "nombre": "Luz solar",
+     "cumplimientoPct": 46.4
+    },
+    {
+     "nombre": "Aire puro",
+     "cumplimientoPct": 0.0
+    },
+    {
+     "nombre": "Temperancia",
+     "cumplimientoPct": 0.0
+    },
+    {
+     "nombre": "Alimentación saludable",
+     "cumplimientoPct": 64.3
+    },
+    {
+     "nombre": "Confianza en Dios",
+     "cumplimientoPct": 0.0
+    }
+   ]
+  }
+ },
+ {
+  "usuarioId": "c8817975-3b1b-443d-9770-e25d30139980",
+  "nombre": "Marta Quispe",
+  "tiempo": 52.14,
+  "talento": 68.75,
+  "tesoro": 70.0,
+  "templo": 35.27,
+  "global": 56.54,
+  "semaforo": "AMARILLO",
+  "diezmoAlDia": true,
+  "habitos": {
+   "TIEMPO": [
+    {
+     "nombre": "Culto personal",
+     "cumplimientoPct": 60.7
+    },
+    {
+     "nombre": "Lección de Escuela Sabática",
+     "cumplimientoPct": 60.7
+    },
+    {
+     "nombre": "Culto familiar",
+     "cumplimientoPct": 64.3
+    },
+    {
+     "nombre": "Asistencia a la iglesia",
+     "cumplimientoPct": 25.0
+    },
+    {
+     "nombre": "Sábado guardado",
+     "cumplimientoPct": 50.0
+    }
+   ],
+   "TALENTO": [
+    {
+     "nombre": "Servicio en ministerios",
+     "cumplimientoPct": 50.0
+    },
+    {
+     "nombre": "Obra misionera",
+     "cumplimientoPct": 50.0
+    },
+    {
+     "nombre": "Desarrollo de un don",
+     "cumplimientoPct": 100.0
+    },
+    {
+     "nombre": "Ayuda a la comunidad",
+     "cumplimientoPct": 75.0
+    }
+   ],
+   "TEMPLO": [
+    {
+     "nombre": "Agua",
+     "cumplimientoPct": 60.7
+    },
+    {
+     "nombre": "Ejercicio",
+     "cumplimientoPct": 67.9
+    },
+    {
+     "nombre": "Descanso",
+     "cumplimientoPct": 53.6
+    },
+    {
+     "nombre": "Luz solar",
+     "cumplimientoPct": 50.0
+    },
+    {
+     "nombre": "Aire puro",
+     "cumplimientoPct": 0.0
+    },
+    {
+     "nombre": "Temperancia",
+     "cumplimientoPct": 0.0
+    },
+    {
+     "nombre": "Alimentación saludable",
+     "cumplimientoPct": 50.0
+    },
+    {
+     "nombre": "Confianza en Dios",
+     "cumplimientoPct": 0.0
+    }
+   ]
+  }
+ }
+]

@@ -1,0 +1,42 @@
+{
+ "items": [
+  {
+   "id": "1a02a9e2-1b13-4dd2-be09-7e8481b345f8",
+   "tipo": "DIEZMO_PENDIENTE",
+   "categoria": "MAYORDOMIA",
+   "titulo": "Diezmo por entregar",
+   "cuerpo": "Tienes S/ 450.00 de diezmo apartado este mes. Lo primero para Dios.",
+   "datos": {
+    "ruta": "/diezmos"
+   },
+   "fecha": "2026-09-29T04:48:52.265085Z",
+   "leida": false
+  },
+  {
+   "id": "fc49bd0e-5dcc-407e-80e1-f889ad5cc17a",
+   "tipo": "PRESUPUESTO_EXCEDIDO",
+   "categoria": "CONSUMO",
+   "titulo": "Superaste tu presupuesto de Transporte",
+   "cuerpo": "Llevas S/ 310.00 de S/ 300.00 este mes.",
+   "datos": {
+    "ruta": "/reportes"
+   },
+   "fecha": "2026-09-29T04:48:47.939698Z",
+   "leida": false
+  },
+  {
+   "id": "252bf919-a7d9-42f8-a45f-d077c33f8852",
+   "tipo": "PRESUPUESTO_EXCEDIDO",
+   "categoria": "CONSUMO",
+   "titulo": "Superaste tu presupuesto de Alimentación",
+   "cuerpo": "Llevas S/ 780.00 de S/ 700.00 este mes.",
+   "datos": {
+    "ruta": "/reportes"
+   },
+   "fecha": "2026-09-29T04:48:47.916155Z",
+   "leida": false
+  }
+ ],
+ "noLeidas": 3,
+ "totalPaginas": 1
+}

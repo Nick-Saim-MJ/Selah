@@ -1,0 +1,6 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- INTERNET también está en el manifest principal (la app la necesita para hablar con el backend). -->
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <!-- Solo debug: HTTP en claro hacia el backend local durante la demo. -->
+    <application android:networkSecurityConfig="@xml/network_security_config" />
+</manifest>

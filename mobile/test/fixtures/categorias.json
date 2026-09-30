@@ -1,0 +1,65 @@
+[
+ {
+  "id": "c5f9307d-830e-42b9-beb1-47f30355b5f6",
+  "nombre": "Vivienda",
+  "tipo": "GASTO",
+  "color": "#5E7BAA",
+  "icono": "home",
+  "presupuestoMensual": 900.0,
+  "orden": 0
+ },
+ {
+  "id": "c502e091-61b5-460e-bf63-a82c249188bc",
+  "nombre": "Alimentación",
+  "tipo": "GASTO",
+  "color": "#887B2C",
+  "icono": "restaurant",
+  "presupuestoMensual": 700.0,
+  "orden": 1
+ },
+ {
+  "id": "d922a069-041d-48dd-a208-17e43e7dec51",
+  "nombre": "Transporte",
+  "tipo": "GASTO",
+  "color": "#258B86",
+  "icono": "directions_bus",
+  "presupuestoMensual": 300.0,
+  "orden": 2
+ },
+ {
+  "id": "67221165-8b7f-48a7-9bfb-92b88040a66c",
+  "nombre": "Salud",
+  "tipo": "GASTO",
+  "color": "#9E658B",
+  "icono": "favorite",
+  "presupuestoMensual": 200.0,
+  "orden": 3
+ },
+ {
+  "id": "1201c9f1-78cf-4eb1-bbe6-37e4f2937d9b",
+  "nombre": "Educación",
+  "tipo": "GASTO",
+  "color": "#816FA3",
+  "icono": "school",
+  "presupuestoMensual": 250.0,
+  "orden": 4
+ },
+ {
+  "id": "0c999e7a-b593-444b-aad8-5e6a774f94d6",
+  "nombre": "Deudas",
+  "tipo": "GASTO",
+  "color": "#69625A",
+  "icono": "credit_card",
+  "presupuestoMensual": 300.0,
+  "orden": 5
+ },
+ {
+  "id": "9d0209ac-4378-4768-8be4-cbc9e7dff3cb",
+  "nombre": "Ocio",
+  "tipo": "GASTO",
+  "color": "#B27744",
+  "icono": "celebration",
+  "presupuestoMensual": 150.0,
+  "orden": 6
+ }
+]

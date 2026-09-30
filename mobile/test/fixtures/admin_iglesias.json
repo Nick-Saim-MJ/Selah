@@ -1,0 +1,16 @@
+[
+ {
+  "id": "453a8381-f90b-4829-b9bb-b7e8377f936d",
+  "nombre": "Adventista Central",
+  "ciudad": "Lima",
+  "distrito": "Cercado",
+  "activa": true
+ },
+ {
+  "id": "3a480ccb-2ed2-4c97-9c4d-09f2321e5960",
+  "nombre": "Adventista Miraflores",
+  "ciudad": "Lima",
+  "distrito": "Miraflores",
+  "activa": true
+ }
+]

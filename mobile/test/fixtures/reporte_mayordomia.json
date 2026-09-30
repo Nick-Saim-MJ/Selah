@@ -1,0 +1,121 @@
+{
+ "periodo": "2026-09",
+ "tiempo": 88.57,
+ "talento": 87.5,
+ "tesoro": 53.34,
+ "templo": 49.55,
+ "global": 69.74,
+ "semaforo": "AMARILLO",
+ "habitos": {
+  "TIEMPO": [
+   {
+    "codigo": "CULTO_PERSONAL",
+    "nombre": "Culto personal",
+    "cumplimientoPct": 89.3,
+    "fuente": "APP"
+   },
+   {
+    "codigo": "LECCION_ES",
+    "nombre": "Lección de Escuela Sabática",
+    "cumplimientoPct": 67.9,
+    "fuente": "APP"
+   },
+   {
+    "codigo": "CULTO_FAMILIAR",
+    "nombre": "Culto familiar",
+    "cumplimientoPct": 85.7,
+    "fuente": "APP"
+   },
+   {
+    "codigo": "ASISTENCIA_IGLESIA",
+    "nombre": "Asistencia a la iglesia",
+    "cumplimientoPct": 100.0,
+    "fuente": "APP"
+   },
+   {
+    "codigo": "SABADO_GUARDADO",
+    "nombre": "Sábado guardado",
+    "cumplimientoPct": 100.0,
+    "fuente": "APP"
+   }
+  ],
+  "TALENTO": [
+   {
+    "codigo": "SERVICIO_IGLESIA",
+    "nombre": "Servicio en ministerios",
+    "cumplimientoPct": 75.0,
+    "fuente": "APP"
+   },
+   {
+    "codigo": "OBRA_MISIONERA",
+    "nombre": "Obra misionera",
+    "cumplimientoPct": 75.0,
+    "fuente": "APP"
+   },
+   {
+    "codigo": "DESARROLLO_DON",
+    "nombre": "Desarrollo de un don",
+    "cumplimientoPct": 100.0,
+    "fuente": "APP"
+   },
+   {
+    "codigo": "AYUDA_COMUNIDAD",
+    "nombre": "Ayuda a la comunidad",
+    "cumplimientoPct": 100.0,
+    "fuente": "APP"
+   }
+  ],
+  "TEMPLO": [
+   {
+    "codigo": "AGUA",
+    "nombre": "Agua",
+    "cumplimientoPct": 96.4,
+    "fuente": "APP"
+   },
+   {
+    "codigo": "EJERCICIO",
+    "nombre": "Ejercicio",
+    "cumplimientoPct": 92.9,
+    "fuente": "APP"
+   },
+   {
+    "codigo": "DESCANSO",
+    "nombre": "Descanso",
+    "cumplimientoPct": 75.0,
+    "fuente": "APP"
+   },
+   {
+    "codigo": "SOL",
+    "nombre": "Luz solar",
+    "cumplimientoPct": 46.4,
+    "fuente": "APP"
+   },
+   {
+    "codigo": "AIRE_PURO",
+    "nombre": "Aire puro",
+    "cumplimientoPct": 0.0,
+    "fuente": "APP"
+   },
+   {
+    "codigo": "TEMPERANCIA",
+    "nombre": "Temperancia",
+    "cumplimientoPct": 0.0,
+    "fuente": "APP"
+   },
+   {
+    "codigo": "ALIMENTACION",
+    "nombre": "Alimentación saludable",
+    "cumplimientoPct": 85.7,
+    "fuente": "APP"
+   },
+   {
+    "codigo": "CONFIANZA_DIOS",
+    "nombre": "Confianza en Dios",
+    "cumplimientoPct": 0.0,
+    "fuente": "APP"
+   }
+  ]
+ },
+ "diezmoAlDia": false,
+ "generadoEn": "2026-09-29T04:49:08.751427800Z"
+}

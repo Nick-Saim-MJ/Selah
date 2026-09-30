@@ -1,0 +1,80 @@
+{
+ "periodo": "2026-09",
+ "ingresos": 4500.0,
+ "gastos": 2530.0,
+ "pagosDeuda": 300.0,
+ "aportesMeta": 300.0,
+ "saldoDisponible": 830.0,
+ "apartadoTotal": 540.0,
+ "apartadoPendiente": 540.0,
+ "ratioGasto": 56.2,
+ "ratioDeuda": 6.7,
+ "ratioAhorro": 6.7,
+ "semaforo": "VERDE",
+ "categorias": [
+  {
+   "categoriaId": "c5f9307d-830e-42b9-beb1-47f30355b5f6",
+   "nombre": "Vivienda",
+   "color": "#5E7BAA",
+   "planeado": 900.0,
+   "real": 900.0,
+   "variacionPct": 0.0
+  },
+  {
+   "categoriaId": "c502e091-61b5-460e-bf63-a82c249188bc",
+   "nombre": "Alimentación",
+   "color": "#887B2C",
+   "planeado": 700.0,
+   "real": 780.0,
+   "variacionPct": 11.4
+  },
+  {
+   "categoriaId": "d922a069-041d-48dd-a208-17e43e7dec51",
+   "nombre": "Transporte",
+   "color": "#258B86",
+   "planeado": 300.0,
+   "real": 310.0,
+   "variacionPct": 3.3
+  },
+  {
+   "categoriaId": "67221165-8b7f-48a7-9bfb-92b88040a66c",
+   "nombre": "Salud",
+   "color": "#9E658B",
+   "planeado": 200.0,
+   "real": 150.0,
+   "variacionPct": -25.0
+  },
+  {
+   "categoriaId": "1201c9f1-78cf-4eb1-bbe6-37e4f2937d9b",
+   "nombre": "Educación",
+   "color": "#816FA3",
+   "planeado": 250.0,
+   "real": 250.0,
+   "variacionPct": 0.0
+  },
+  {
+   "categoriaId": "0c999e7a-b593-444b-aad8-5e6a774f94d6",
+   "nombre": "Deudas",
+   "color": "#69625A",
+   "planeado": 300.0,
+   "real": 0.0,
+   "variacionPct": -100.0
+  },
+  {
+   "categoriaId": "9d0209ac-4378-4768-8be4-cbc9e7dff3cb",
+   "nombre": "Ocio",
+   "color": "#B27744",
+   "planeado": 150.0,
+   "real": 140.0,
+   "variacionPct": -6.7
+  }
+ ],
+ "principalDesvio": {
+  "categoriaId": "c502e091-61b5-460e-bf63-a82c249188bc",
+  "nombre": "Alimentación",
+  "color": "#887B2C",
+  "planeado": 700.0,
+  "real": 780.0,
+  "variacionPct": 11.4
+ }
+}

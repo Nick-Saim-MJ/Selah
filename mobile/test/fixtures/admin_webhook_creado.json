@@ -1,0 +1,10 @@
+{
+ "webhook": {
+  "id": "e2423d5e-a091-4401-bf72-d912de552399",
+  "clienteApiId": "60c4f6a2-a21b-4224-979d-8c7eabd3894f",
+  "tipoEvento": "*",
+  "url": "https://equipo.ejemplo.com/hook",
+  "activa": true
+ },
+ "secreto": "whsec_ejemplo-no-real"
+}

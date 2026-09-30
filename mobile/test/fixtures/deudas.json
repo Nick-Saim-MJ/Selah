@@ -1,0 +1,23 @@
+{
+ "deudas": [
+  {
+   "id": "7ef2c4f2-0c93-435c-b6ea-2fbc167a3592",
+   "nombre": "Tarjeta de crédito",
+   "acreedor": "Banco Demo",
+   "montoOriginal": 3600.0,
+   "saldoActual": 2143.41,
+   "tasaAnual": 24.0,
+   "plazoMeses": 8,
+   "cuotaMensual": 324.93,
+   "mesesRestantes": 8,
+   "porcentajePagado": 40.46,
+   "diaPago": 10,
+   "estado": "ACTIVA"
+  }
+ ],
+ "cuotaTotalMensual": 324.93,
+ "ingresoMensualBase": 4500.0,
+ "porcentajeCuotasSobreIngreso": 7.22,
+ "superaLimite": false,
+ "limitePorcentaje": 40
+}
