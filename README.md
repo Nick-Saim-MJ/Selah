@@ -69,6 +69,10 @@ Guía paso a paso (depuración USB, datos de demostración, guion por rol, Modo 
 **[docs/guia-demo-movil.md](docs/guia-demo-movil.md)** · verificación rápida: `powershell -File scripts/verificar-demo.ps1`.
 Backend con datos de demo: `SPRING_PROFILES_ACTIVE=dev,demo` (contraseña de las cuentas demo: `Demo1234!`).
 
+## Backend en la nube y APK para testers
+
+[docs/despliegue-railway.md](docs/despliegue-railway.md): despliegue con Docker en Railway (`backend/Dockerfile`), variables, APK de release apuntando a la URL pública y cómo compartirlo.
+
 ## Estado actual
 
 Backend (Flyway V1–V9) y app móvil implementan: identidad con roles, iglesias, hogar y mayordomía, movimientos, diezmos/ofrendas,
