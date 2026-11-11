@@ -63,6 +63,10 @@ Pruebas: `flutter test` · Análisis: `flutter analyze`.
 | **PASTOR** | Sus finanzas propias + vista de su iglesia: totales anónimos y reportes de quienes decidieron compartir (sin montos). |
 | **HERMANO** | Usuario normal: se registra solo, elige su iglesia y decide si comparte su reporte con su pastor. |
 
+## Manual de uso
+
+[docs/manual-usuario.pdf](docs/manual-usuario.pdf) (también en [Markdown](docs/manual-usuario.md)): manual con capturas para hermanos, pastores y administradores, escrito para personas sin conocimientos técnicos.
+
 ## Demo en el celular
 
 Guía paso a paso (depuración USB, datos de demostración, guion por rol, Modo Sábado con reloj simulado):

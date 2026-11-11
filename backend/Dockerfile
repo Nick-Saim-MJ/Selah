@@ -21,6 +21,9 @@ USER selah
 # Pensado para ~512 MB de RAM: heap acotado, GC serial y compilador ligero.
 ENV JAVA_TOOL_OPTIONS="-XX:MaxRAMPercentage=60 -XX:+UseSerialGC -XX:TieredStopAtLevel=1 -Xss512k"
 ENV SPRING_DATASOURCE_HIKARI_MAXIMUM_POOL_SIZE=5
+# En la nube la red privada y la base pueden tardar unos segundos en estar listas: Flyway reintenta (10 x 3 s) antes de fallar.
+ENV SPRING_FLYWAY_CONNECT_RETRIES=10
+ENV SPRING_FLYWAY_CONNECT_RETRIES_INTERVAL=3s
 
 EXPOSE 8080
 # El puerto lo toma de la variable PORT (Railway la define sola; por defecto 8080).

@@ -295,21 +295,21 @@ class _DetalleUsuario extends StatelessWidget {
             ],
           ),
           const SizedBox(height: 16),
-          FilledButton.tonalIcon(
+          OutlinedButton.icon(
             onPressed: () => Navigator.pop(context, _Accion.editar),
             icon: const Icon(Icons.edit_outlined),
             label: const Text('Editar datos, iglesia o rol'),
           ),
           const SizedBox(height: 8),
-          FilledButton.tonalIcon(
+          OutlinedButton.icon(
             onPressed: () => Navigator.pop(context, _Accion.resetear),
             icon: const Icon(Icons.lock_reset),
             label: const Text('Restablecer contraseña'),
           ),
           const SizedBox(height: 8),
-          FilledButton.tonalIcon(
+          OutlinedButton.icon(
             onPressed: () => Navigator.pop(context, _Accion.cambiarEstado),
-            style: FilledButton.styleFrom(foregroundColor: usuario.bloqueado ? AppColors.verde : AppColors.rojo),
+            style: OutlinedButton.styleFrom(foregroundColor: usuario.bloqueado ? AppColors.verde : AppColors.rojo),
             icon: Icon(usuario.bloqueado ? Icons.lock_open : Icons.block),
             label: Text(usuario.bloqueado ? 'Reactivar cuenta' : 'Bloquear cuenta'),
           ),

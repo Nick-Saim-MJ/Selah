@@ -1,0 +1,36 @@
+# Blueprint de Render: crea la API (Docker) y la base PostgreSQL con un solo clic.
+# Render > New > Blueprint > elegir este repositorio. Docs: docs/despliegue-render.md
+services:
+  - type: web
+    name: selah-api
+    runtime: docker
+    rootDir: backend          # ahí está el Dockerfile
+    plan: free
+    region: oregon            # debe ser la misma región que la base de datos
+    healthCheckPath: /actuator/health
+    envVars:
+      - key: SPRING_PROFILES_ACTIVE
+        value: demo           # siembra cuentas de demostración; cambia a "prod" para registro libre
+      - key: JWT_SECRET
+        generateValue: true   # Render genera un secreto aleatorio y lo guarda
+      - key: SELAH_CLAVE_CIFRADO
+        generateValue: true
+      - key: JWT_EXPIRACION
+        value: PT12H
+      - key: DB_HOST
+        fromDatabase: { name: selah-db, property: host }
+      - key: DB_PORT
+        fromDatabase: { name: selah-db, property: port }
+      - key: DB_NAME
+        fromDatabase: { name: selah-db, property: database }
+      - key: DB_USER
+        fromDatabase: { name: selah-db, property: user }
+      - key: DB_PASSWORD
+        fromDatabase: { name: selah-db, property: password }
+
+databases:
+  - name: selah-db
+    plan: free                # la base gratuita caduca a los 30 días
+    region: oregon
+    databaseName: selah_finance
+    user: selah
