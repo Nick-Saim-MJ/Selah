@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import '../../../../core/widgets/logo_marca.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 
 import '../../../../core/theme/app_colors.dart';
@@ -63,8 +64,7 @@ class _OnboardingPageState extends State<OnboardingPage> {
               Row(
                 mainAxisAlignment: MainAxisAlignment.spaceBetween,
                 children: [
-                  Text('SelahFinance',
-                      style: texto.titleLarge?.copyWith(fontWeight: FontWeight.w800, color: AppColors.primario)),
+                  const LogoMarca(),
                   TextButton(
                     onPressed: () => context.read<OnboardingCubit>().completar(),
                     child: const Text('Omitir'),

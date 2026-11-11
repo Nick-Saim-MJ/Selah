@@ -1,6 +1,7 @@
 import 'dart:async';
 
 import 'package:flutter/material.dart';
+import '../widgets/logo_marca.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:go_router/go_router.dart';
 
@@ -259,7 +260,14 @@ class _Cargando extends StatelessWidget {
   const _Cargando();
 
   @override
-  Widget build(BuildContext context) => const Scaffold(body: Center(child: CircularProgressIndicator()));
+  Widget build(BuildContext context) => const Scaffold(
+        body: Center(
+          child: Column(
+            mainAxisSize: MainAxisSize.min,
+            children: [LogoSimbolo(alto: 96), SizedBox(height: 24), CircularProgressIndicator()],
+          ),
+        ),
+      );
 }
 
 /// Notifica a go_router cuando cambia cualquiera de los estados observados.

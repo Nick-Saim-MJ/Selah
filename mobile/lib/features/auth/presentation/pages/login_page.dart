@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import '../../../../core/widgets/logo_marca.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 
 import '../../../../core/bloc/async_state.dart';
@@ -63,10 +64,14 @@ class _LoginPageState extends State<LoginPage> {
                 child: Column(
                   crossAxisAlignment: CrossAxisAlignment.stretch,
                   children: [
+                    const Center(child: LogoSimbolo(alto: 112)),
+                    const SizedBox(height: 12),
                     Text('SelahFinance',
+                        textAlign: TextAlign.center,
                         style: texto.headlineMedium?.copyWith(fontWeight: FontWeight.w800, color: AppColors.primario)),
                     const SizedBox(height: 4),
                     Text('Administra con propósito, vive con libertad.',
+                        textAlign: TextAlign.center,
                         style: texto.bodyMedium?.copyWith(color: AppColors.textoSecundario)),
                     const SizedBox(height: 32),
                     if (_modoRegistro) ...[

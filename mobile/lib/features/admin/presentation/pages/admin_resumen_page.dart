@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import '../../../../core/widgets/logo_marca.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:go_router/go_router.dart';
 
@@ -22,8 +23,7 @@ class AdminResumenPage extends StatelessWidget {
     final nombre = auth is AuthAutenticado ? auth.sesion.nombres : null;
     return Scaffold(
       appBar: AppBar(
-        title: Text('SelahFinance · Admin',
-            style: Theme.of(context).textTheme.titleLarge?.copyWith(fontWeight: FontWeight.w800, color: AppColors.primario)),
+        title: const LogoMarca(sufijo: '· Admin'),
         actions: [
           PopupMenuButton<String>(
             icon: const Icon(Icons.account_circle_outlined),
